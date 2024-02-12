@@ -1,8 +1,9 @@
 
-import Header from '../Components/Header'
+// import Header from '../Components/Header'
 import { Outlet } from 'react-router-dom'
 import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
+import Navbar from '../Components/Navbar'
 
 
 
@@ -19,7 +20,8 @@ const HomeScreen = () => {
 
   return (
     <div>
-      <Header/>
+      {/* <Header/> */}
+      <Navbar/>
       <Outlet/>
     </div>
   )

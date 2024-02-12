@@ -70,7 +70,7 @@ const LoginScreen = () => {
       <div className="md:w-1/3 max-w-sm">
         <img
         
-          src="https://cdn3d.iconscout.com/3d/premium/thumb/payment-security-7042564-5727735.png?f=webp"
+          src="https://cdn-icons-png.flaticon.com/512/295/295128.png"
           alt="Sample image" />
       </div>
       <div className="md:w-1/3 max-w-sm">

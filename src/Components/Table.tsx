@@ -13,9 +13,9 @@ const Table = (props:propss) => {
         <tbody>
           {/* row 1 */}
           <tr>
-            <td>{props.id}</td>
-            <td>{props.timestamp}</td>
-            <td> ₹ {props.amount}</td>
+            <td className="w-1/3 text-center">{props.id}</td>
+            <td className="w-1/3 text-center">{props.timestamp}</td>
+            <td className="w-1/3 text-center"> ₹ {props.amount}</td>
           </tr>
         </tbody>
       </table>

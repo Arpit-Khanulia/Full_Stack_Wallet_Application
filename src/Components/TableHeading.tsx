@@ -6,9 +6,9 @@ const TableHeading = () => {
             <thead>
               <tr>
                 <th></th>
-                <th>Transition Id</th>
-                <th>TimeStamp</th>
-                <th>Amount</th>
+                <th className="w-1/3 text-center" >Transition Id</th>
+                <th className="w-1/3 text-center" >TimeStamp</th>
+                <th className="w-1/3 text-center" >Amount</th>
               </tr>
             </thead>
           </table>
