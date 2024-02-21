@@ -42,7 +42,7 @@ interface User {
     export const authApi = createApi({
         
         reducerPath: 'authApi',
-        baseQuery: fetchBaseQuery({ baseUrl: 'http://localhost:3000',
+        baseQuery: fetchBaseQuery({ baseUrl: 'https://full-stack-wallet-application.vercel.app/',
         prepareHeaders:(headers,{getState})=>{
             const authToken=(getState() as RootState).saveUserAndToken.accessToken;
             if(authToken){
